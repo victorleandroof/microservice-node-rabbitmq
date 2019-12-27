@@ -1,0 +1,30 @@
+{
+  "name": "micro-service-3",
+  "version": "1.0.0",
+  "description": "auth service",
+  "scripts": {
+    "start": "node ./src/server.js"
+  },
+  "author": "victorleandroof",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "cron": "^1.7.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-healthcheck": "^0.1.0",
+    "express-metrics": "^1.1.0",
+    "helmet": "^3.21.2",
+    "jsonwebtoken": "^8.5.1",
+    "jwt-decode": "^2.2.0",
+    "mongoose": "^5.8.3",
+    "morgan": "^1.9.1",
+    "redis": "^2.8.0",
+    "sha256": "^0.2.0",
+    "uuid": "^3.3.3",
+    "winston": "^3.2.1"
+  }
+}
